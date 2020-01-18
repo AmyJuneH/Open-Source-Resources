@@ -1,6 +1,11 @@
 Setting up local for CORE contribution
 --------------------------------------
 
+Assumptions:
+ * Lando is already intalled and up to date on the machine
+ * Git is installed
+ * You have basic knowledge of the command line
+
 ```
 cd ~
 cd Sites/
