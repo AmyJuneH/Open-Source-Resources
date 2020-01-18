@@ -6,6 +6,9 @@ Assumptions:
  * Git is installed
  * You have basic knowledge of the command line
 
+    1. Open the terminal
+    2. Enter the following commands
+    
 ```
 cd ~
 cd Sites/
@@ -13,15 +16,11 @@ git clone -b 8.8.x https://github.com/drupal/drupal.git d8core
 cd d8core
 lando init --recipe drupal8
 ```
-
-From where should we get your app's codebase? `current working directory`
-
-
-Where is your webroot relative to the init destination? `.`
-
-
-What do you want to call this app? `d8core`
-
+   3. Follow the prompts
+      From where should we get your app's codebase? `current working directory`
+      Where is your webroot relative to the init destination? `.`
+      What do you want to call this app? `d8core`
+   4. Enter the next commands
 
 ```
 lando start
