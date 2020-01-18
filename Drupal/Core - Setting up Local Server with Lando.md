@@ -1,11 +1,5 @@
-Lando sandbox for core work
-
-Video: 
-From Tandem
-https://www.youtube.com/watch?v=jNAdsqQM3RA&feature=youtu.be
-
-
 Setting up local for CORE contribution
+--------------------------------------
 
 ```
 cd ~
@@ -53,4 +47,15 @@ FOR NEW DB
       
 
 TROUBLESHOOTING
+---------------
+
 https://docs.devwithlando.io/troubleshooting/logs.html
+
+RESOURCES
+---------
+
+Video: 
+From Tandem
+https://www.youtube.com/watch?v=jNAdsqQM3RA&feature=youtu.be
+
+
