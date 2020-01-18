@@ -8,7 +8,7 @@
 
 ## Commands
 
-Open your terminal of choice
+Open your terminal of choice.
     1. Enter the following commands
     
 ```
