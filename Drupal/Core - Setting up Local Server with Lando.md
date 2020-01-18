@@ -1,11 +1,12 @@
-Setting up local for CORE contribution
---------------------------------------
+# Setting up local for CORE contribution
 
-Assumptions:
+## Assumptions
+
  * Lando is already intalled and up to date on the machine
  * Git is installed
  * You have basic knowledge of the command line
 
+## Commands
 
     1. Open the terminal
     2. Enter the following commands
@@ -30,8 +31,7 @@ lando composer install
 
 lando info (shows db creds amongst other things)
 
-FOR NEW DB
-----------
+## FOR NEW DB
 
  * DB_HOST=database
  * DB_USER=drupal8
@@ -51,13 +51,11 @@ FOR NEW DB
  ```
       
 
-TROUBLESHOOTING
----------------
+## TROUBLESHOOTING
 
 https://docs.devwithlando.io/troubleshooting/logs.html
 
-RESOURCES
----------
+## RESOURCES
 
 Video: 
 From Tandem
