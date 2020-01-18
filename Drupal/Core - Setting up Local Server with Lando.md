@@ -8,8 +8,8 @@
 
 ## Commands
 
-    1. Open the terminal
-    2. Enter the following commands
+Open your terminal of choice
+    1. Enter the following commands
     
 ```
 cd ~
