@@ -8,8 +8,10 @@
 
 ## Commands
 
-Open your terminal of choice.
-    1. Enter the following commands
+The following set up command will download a Drupal 8 core repeository, start LANDO, and run composer.
+
+   1. Open your terminal of choice.
+   2. Enter the following commands
     
 ```
 cd ~
@@ -20,8 +22,8 @@ lando init --recipe drupal8
 ```
    3. Follow the prompts
       * From where should we get your app's codebase? `current working directory`
-       * Where is your webroot relative to the init destination? `.`
-       * What do you want to call this app? `d8core`
+      * Where is your webroot relative to the init destination? `.`
+      * What do you want to call this app? `d8core`
    4. Enter the next commands
 
 ```
