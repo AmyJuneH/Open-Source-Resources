@@ -1,43 +1,43 @@
-Creating a Patch
+# Creating a Patch
 
-Navigate to project page and select the version control tab
-Select the version and show
-Copy git clone link
-example:  git clone --branch 8.x-2.x https://git.drupal.org/project/bootstrap_paragraphs.git
-cd bootstrap_paragraphs
-Open terminal (be sure to be in the project root)
-Create new branch with the naming convention: issue node # and comment ie., 3034926-2 (comment #2)
-git checkout -b 3034926-2
-Open preferred editor and edit the appropriate file and save
-Review changes
-git status
-git diff
-Hold shift : then q and enter to leave the comparison view.
-Commit changes
-git status
-git add [file name] or git add . to include all changed files
-git commit [file name]
-git commit -m “[Name of module] - [name of file] - description of changes and maybe the Drupal.org node #.”
-Create patch - A patch is the difference between two git "references".
-Be sure to be in the project root
-Git diff between the two branches 
-Command: git diff 8.x-1.x 3034926-2 > bootstrap_paragraphs-readme-3034926-2.patch
-Patch naming convention:
-[project_name]-[fix]-[issue_id]-[old_comment_number] .patch 
-Example: bootstrap_paragraphs-UI_fix-3034926-4.patch
-Paste command in terminal
-Open patch in editor and review 
-Return to the issue and add the patch to a new comment
-Open issue metadata fieldset and change the following:
-Status: Needs review
-Assigned: Unassign
-Comment
-Upload file
-Save
+ * Navigate to project page and select the version control tab
+ * Select the version and show
+ * Copy git clone link
+ * example:  git clone --branch 8.x-2.x https://git.drupal.org/project/bootstrap_paragraphs.git
+ * cd bootstrap_paragraphs
+ * Open terminal (be sure to be in the project root)
+ * Create new branch with the naming convention: issue node # and comment ie., 3034926-2 (comment #2)
+ * git checkout -b 3034926-2
+ * Open preferred editor and edit the appropriate file and save
+ * Review changes
+ * git status
+ * git diff
+ * Hold shift : then q and enter to leave the comparison view.
+ * Commit changes
+ * git status
+ * git add [file name] or git add . to include all changed files
+ * git commit [file name]
+ * git commit -m “[Name of module] - [name of file] - description of changes and maybe the Drupal.org node #.”
+ * Create patch - A patch is the difference between two git "references".
+ * Be sure to be in the project root
+ * Git diff between the two branches 
+ * Command: git diff 8.x-1.x 3034926-2 > bootstrap_paragraphs-readme-3034926-2.patch
+ * Patch naming convention:
+ * [project_name]-[fix]-[issue_id]-[old_comment_number] .patch 
+ * Example: bootstrap_paragraphs-UI_fix-3034926-4.patch
+ * Paste command in terminal
+ * Open patch in editor and review 
+ * Return to the issue and add the patch to a new comment
+ * Open issue metadata fieldset and change the following:
+ * Status: Needs review
+ * Assigned: Unassign
+ * Comment
+ * Upload file
+ * Save
 
 
 
-Patch naming conventions explained
+## Patch naming conventions explained
 https://www.drupal.org/node/1054616
 
 The (unofficial) patch naming convention that has emerged from the community is:
