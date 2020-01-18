@@ -15,23 +15,14 @@ cd d8core
 lando init --recipe drupal8
 ```
 
-From where should we get your app's codebase?
+From where should we get your app's codebase? `current working directory`
 
-```
-current working directory
-```
 
-Where is your webroot relative to the init destination?
+Where is your webroot relative to the init destination? `.`
 
-```
-.
-```
 
-What do you want to call this app?
+What do you want to call this app? `d8core`
 
-```
-d8core
-```
 
 ```
 lando start
