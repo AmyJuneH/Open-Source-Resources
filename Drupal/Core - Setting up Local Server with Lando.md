@@ -32,12 +32,15 @@ lando composer install
 lando info (shows db creds amongst other things)
 
 FOR NEW DB
-DB_HOST=database
-DB_USER=drupal8
-DB_PASSWORD=drupal8
-DB_NAME=drupal8
-DB_PORT=3306
+----------
 
+ * DB_HOST=database
+ * DB_USER=drupal8
+ * DB_PASSWORD=drupal8
+ * DB_NAME=drupal8
+ * DB_PORT=3306
+ 
+```
     "creds": {
       "user": "drupal8",
       "password": "drupal8",
@@ -46,7 +49,7 @@ DB_PORT=3306
     "internal_connection": {
       "host": "database",
       "port": 3306
-      
+ ```
       
 
 TROUBLESHOOTING
