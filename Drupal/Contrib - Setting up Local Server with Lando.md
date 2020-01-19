@@ -28,7 +28,7 @@ lando init --recipe drupal8
       * From where should we get your app's codebase? `current working directory`
       * Where is your webroot relative to the init destination? `web`
       * What do you want to call this app? `d-8-sandbox`
-   5. Enter the next commands
+   5. Enter the next command
 
 ```
 lando start
