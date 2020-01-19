@@ -4,8 +4,8 @@
 
  * Navigate to the module’s project page on Drupal.org
  * Download the project repo
- * Select the version control tab
- * example:  `git clone --branch 8.x-2.x https://git.drupal.org/project/bootstrap_paragraphs.git`
+ * Select the version control tab and copy the download command
+   * example:  `git clone --branch 8.x-2.x https://git.drupal.org/project/bootstrap_paragraphs.git`
  * Download the patch that requires testing
  * From the command line navigate into the project root
  * `cd project_name`

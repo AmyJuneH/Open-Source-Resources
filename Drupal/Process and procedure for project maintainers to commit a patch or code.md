@@ -34,7 +34,3 @@ Push the changes
  * Make a comment about fixing
  * Thank the contributors, checking to see if everyone got a credit
  * Mark meta data as fixed
-
-
-
-

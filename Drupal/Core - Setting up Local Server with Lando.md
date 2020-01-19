@@ -20,6 +20,7 @@ git clone -b 8.8.x https://github.com/drupal/drupal.git d8core
 cd d8core
 lando init --recipe drupal8
 ```
+
    3. Follow the prompts
       * From where should we get your app's codebase? `current working directory`
       * Where is your webroot relative to the init destination? `.`
@@ -62,5 +63,3 @@ https://docs.devwithlando.io/troubleshooting/logs.html
 Video: 
 From Tandem
 https://www.youtube.com/watch?v=jNAdsqQM3RA&feature=youtu.be
-
-

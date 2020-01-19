@@ -18,6 +18,7 @@ composer create-project drupal-composer/drupal-project:8.x-dev d8landosandbox --
 cd into site
 lando init --recipe drupal8
 ```
+
    3. Follow the prompts
       * From where should we get your app's codebase? `current working directory`
       * Where is your webroot relative to the init destination? `web`
@@ -63,5 +64,3 @@ https://docs.devwithlando.io/installation/installing.html
 
 (after Lando is installed)
 https://www.youtube.com/watch?v=JGef7Fx44F4&t=4s
-
-
