@@ -14,7 +14,8 @@ The following set up command will download a Drupal 8 core repeository, start LA
    2. Enter the following commands
     
 ```
-cd Sites
+cd ~
+cd Sites/
 composer create-project drupal-composer/drupal-project:8.x-dev d8landosandbox --stability dev --no-interaction
 ```
 
