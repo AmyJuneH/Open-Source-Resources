@@ -15,15 +15,19 @@ The following set up command will download a Drupal 8 core repeository, start LA
     
 ```
 composer create-project drupal-composer/drupal-project:8.x-dev d8landosandbox --stability dev --no-interaction
-cd into site
+```
+
+   3. cd into site
+
+```
 lando init --recipe drupal8
 ```
 
-   3. Follow the prompts
+   4. Follow the prompts
       * From where should we get your app's codebase? `current working directory`
       * Where is your webroot relative to the init destination? `web`
       * What do you want to call this app? `d-8-sandbox`
-   4. Enter the next commands
+   5. Enter the next commands
 
 ```
 lando start
