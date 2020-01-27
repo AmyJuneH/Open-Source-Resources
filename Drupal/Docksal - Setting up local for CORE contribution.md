@@ -16,7 +16,9 @@ The following set up command will download a Drupal 8 core repeository, start [d
 ```
 cd ~
 cd Sites/
-[docksal]
+git clone -b 8.8.x https://github.com/drupal/drupal.git d8core
+cd d8core
+fin config generate
 ```
 
    3. Follow the prompts
@@ -26,7 +28,8 @@ cd Sites/
    4. Enter the next commands
 
 ```
-[docksal]
+fin start
+fin composer install
 ```
 
 [docksal] info (shows db creds amongst other things)
@@ -41,22 +44,16 @@ cd Sites/
  
 ```
     "creds": {
-      "user": "drupal8",
-      "password": "drupal8",
-      "database": "drupal8"
+      "user": "user",
+      "password": "user",
+      "database": "default"
     },
     "internal_connection": {
-      "host": "database",
+      "host": "db",
       "port": 3306
  ```
       
 
 ## TROUBLESHOOTING
 
-https://docs.devwithlando.io/troubleshooting/logs.html
 
-## RESOURCES
-
-Video: 
-From Tandem
-https://www.youtube.com/watch?v=jNAdsqQM3RA&feature=youtu.be
