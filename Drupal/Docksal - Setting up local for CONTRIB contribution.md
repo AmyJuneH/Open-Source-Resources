@@ -16,12 +16,13 @@ The following set up command will download a Drupal 8 core repeository, start [d
 ```
 cd ~
 cd Sites/
-[docksal]```
+composer create-project drupal-composer/drupal-project:8.x-dev d8landosandbox --stability dev --no-interaction
+```
 
    3. cd into site
 
 ```
-[docksal]
+fin config generate
 ```
 
    4. Follow the prompts
@@ -31,7 +32,7 @@ cd Sites/
    5. Enter the next command
 
 ```
-[docksal]
+fin start
 ```
 
 [docksal] info (shows db creds amongst other things)
