@@ -36,17 +36,17 @@ fin composer install
 
 ## FOR NEW DB
 
- * DB_HOST=database
- * DB_USER=drupal8
- * DB_PASSWORD=drupal8
- * DB_NAME=drupal8
+ * DB_HOST=db
+ * DB_USER=user
+ * DB_PASSWORD=user
+ * DB_NAME=default
  * DB_PORT=3306
  
 ```
     "creds": {
       "user": "user",
       "password": "user",
-      "database": "default"
+      "database": "db"
     },
     "internal_connection": {
       "host": "db",
