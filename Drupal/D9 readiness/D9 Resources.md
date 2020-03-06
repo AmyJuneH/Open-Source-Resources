@@ -8,13 +8,13 @@ information on what we’re planning to check out the #d9readiness channel in th
 Drupal slack.
 
 ### Resources:
-https://github.com/mglaman/drupal-check
+[Drupal Check](https://github.com/mglaman/drupal-check)
 
-https://www.drupal.org/docs/9
+[Drupal 9 Documentation](https://www.drupal.org/docs/9)
 
-https://www.drupal.org/about/strategic-initiatives/drupal9
+[Drupal 9 Readiness Initiatives](https://www.drupal.org/about/strategic-initiatives/drupal9)
 
-https://www.drupal.org/list-changes
+[Change records for Drupal core](https://www.drupal.org/list-changes)
 
 
 Drupal Rector
