@@ -1,7 +1,7 @@
 Let’s Get ready for Drupal 9
 ============================
 
-One goal to prepare Drupal 8 for Drupal 9: this
+One goal to prepare Drupal 8 for Drupal 9
 includes removing deprecated code within Drupal itself and third-party
 dependencies. If you’re interested in helping plan the initiative or more
 information on what we’re planning to check out the #d9readiness channel in the
