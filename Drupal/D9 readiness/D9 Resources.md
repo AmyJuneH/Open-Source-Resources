@@ -8,9 +8,10 @@ information on what we’re planning to check out the #d9readiness channel in th
 Drupal slack.
 
 ### Resources:
-Gábor Hojtsy of Acquia: [Drupal 9 compatibility contribution quickstart guide for
-Drupal Global Contribution Weekend 2020](http://hojtsy.hu/blog/2020-jan-15/drupal-9-compatibility-contribution-quickstart-guide-drupal-global-contribution)
-Adam Bergstein of simplytest.me: [Drupal 9 Deprecations with SimplyTest.me](http://nerdstein.net/blog/drupal-9-deprecations-simplytestme)
+https://github.com/mglaman/drupal-check
+https://www.drupal.org/docs/9
+https://www.drupal.org/about/strategic-initiatives/drupal9
+https://www.drupal.org/list-changes
 
 
 Drupal Rector
@@ -24,3 +25,14 @@ https://drupal.org/project/rector.
 
 ### Resources:
 Ofer Shaal of Palantir: [Jumpstart Your Drupal 9 Upgrade with Drupal-Rector](https://www.palantir.net/blog/jumpstart-your-drupal-9-upgrade-drupal-rector)
+
+
+Additional Resources
+--------------------
+
+Gábor Hojtsy of Acquia: [Drupal 9 compatibility contribution quickstart guide for
+Drupal Global Contribution Weekend 2020](http://hojtsy.hu/blog/2020-jan-15/drupal-9-compatibility-contribution-quickstart-guide-drupal-global-contribution)
+
+Adam Bergstein of simplytest.me: [Drupal 9 Deprecations with SimplyTest.me](http://nerdstein.net/blog/drupal-9-deprecations-simplytestme)
+
+Damien McKenna of Mediacurrent Contrib Half Hour: [Drupal 9 Module Preparation video](https://youtu.be/3S5O9n_th3k)
