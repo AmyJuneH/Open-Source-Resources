@@ -9,8 +9,11 @@ Drupal slack.
 
 ### Resources:
 https://github.com/mglaman/drupal-check
+
 https://www.drupal.org/docs/9
+
 https://www.drupal.org/about/strategic-initiatives/drupal9
+
 https://www.drupal.org/list-changes
 
 
