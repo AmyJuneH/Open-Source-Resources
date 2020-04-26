@@ -59,6 +59,12 @@ lando info (shows db creds amongst other things)
 
 ## TROUBLESHOOTING
 
+If composer runs out of memory, start with:
+
+```
+COMPOSER_MEMORY_LIMIT=-1 composer create-project drupal-composer/drupal-project:8.x-dev d8landosandbox --stability dev --no-interaction
+```
+
 https://docs.devwithlando.io/troubleshooting/logs.html
 
 ## RESOURCES
