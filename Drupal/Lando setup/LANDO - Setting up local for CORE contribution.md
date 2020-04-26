@@ -59,7 +59,8 @@ lando composer install
 If during the install process after entering your credentials, the website returns that you an existing site, navigate into the file structure:
 d8core > sites > default and delete the settings.php file.
 
-```rm sites/default/settings.php
+```
+rm sites/default/settings.php
 ```
 
 https://docs.devwithlando.io/troubleshooting/logs.html
