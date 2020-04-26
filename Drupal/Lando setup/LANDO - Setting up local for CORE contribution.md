@@ -32,7 +32,7 @@ lando start
 lando composer install
 ```
 
-lando info (shows db creds amongst other things)
+`lando info` (shows db creds amongst other things)
 
 ## FOR NEW DB
 
@@ -57,7 +57,10 @@ lando info (shows db creds amongst other things)
 ## TROUBLESHOOTING
 
 If during the install process after entering your credentials, the website returns that you an existing site, navigate into the file structure:
-d8core > sites > defualt and delete the settings.php file
+d8core > sites > default and delete the settings.php file.
+
+```rm sites/default/settings.php
+```
 
 https://docs.devwithlando.io/troubleshooting/logs.html
 
