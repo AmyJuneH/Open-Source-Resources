@@ -56,6 +56,9 @@ lando info (shows db creds amongst other things)
 
 ## TROUBLESHOOTING
 
+If during the install process after entering your credentials, the website returns that you an existing site, navigate into the file structure:
+d8core > sites > defualt and delete the settings.php file
+
 https://docs.devwithlando.io/troubleshooting/logs.html
 
 ## RESOURCES
