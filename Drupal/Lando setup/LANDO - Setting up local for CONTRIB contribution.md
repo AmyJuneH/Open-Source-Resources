@@ -1,14 +1,14 @@
-# Setting up local for CONTRIB contribution
+# Setting up LANDO local for CONTRIB contribution
 
 ## Assumptions
 
- * Lando is already intalled and up to date on the machine
+ * Lando is already installed and up to date on the machine
  * Git is installed
  * You have basic knowledge of the command line
 
 ## Commands
 
-The following set up command will download a Drupal 8 core repeository, start LANDO, and run composer.
+The following set up command will download a Drupal 8 core repository, start LANDO, and run composer.
 
    1. Open your terminal of choice.
    2. Enter the following commands
@@ -28,7 +28,7 @@ lando init --recipe drupal8
    4. Follow the prompts
       * From where should we get your app's codebase? `current working directory`
       * Where is your webroot relative to the init destination? `web`
-      * What do you want to call this app? `d-8-sandbox`
+      * What do you want to call this app? `d8landosandbox`
    5. Enter the next command
 
 ```
