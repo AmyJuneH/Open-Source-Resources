@@ -16,7 +16,7 @@ The following set up command will download a Drupal 8 core repository, start LAN
 ```
 cd ~
 cd Sites/
-composer create-project drupal-composer/drupal-project:8.x-dev d8landosandbox --stability dev --no-interaction
+composer create-project drupal/recommended-project:8.x d8landosandbox --stability dev --no-interaction
 ```
 
    3. cd into site
