@@ -16,7 +16,7 @@ The following set up command will download a Drupal 8 core repeository, start LA
 ```
 cd ~
 cd Sites/
-git clone -b 8.8.x https://github.com/drupal/drupal.git d8core
+git clone -b 8.9.x https://github.com/drupal/drupal.git d8core
 cd d8core
 lando init --recipe drupal8
 ```
