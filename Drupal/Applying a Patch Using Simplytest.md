@@ -14,6 +14,8 @@ Simplytest.me allows for applying patches online if a local environment is not r
    * Add any additional patch urls
  * Select “Add a project” and add any additional projects
 
-## From the Drupal Issue Queue with the Dreditor borwser extension installed
+## From the Drupal Issue Queue with the Dreditor browser extension installed
+
+Incomplete
 
 
