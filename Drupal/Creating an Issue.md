@@ -19,8 +19,7 @@ for engineers to understand how the projects are being used.
       to replicate, proposed fixes (if any), and any other relevant information.
    5. Save
 
-If the browser extension Dreditor is installed, there is an “Insert Template”
-button for the summary.
+A template is available in the Summary field
 
 <h3 id="summary-problem-motivation">Problem/Motivation</h3>
 <h3 id="summary-proposed-resolution">Proposed resolution</h3>
