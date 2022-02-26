@@ -9,11 +9,16 @@ git@github.com:AmyJuneH/lando.git
 ```
 
    3. Open terminal (be sure to be in the project root)
-   4. Clone the repo onto your maching
+   4. Clone the repo onto your maching using the `git clone` command
 
+```git clone git@github.com:AmyJuneH/lando.git```
 
-   5. Open preferred editor and edit the appropriate file and save
-   6. Review changes
+   5. Create new branch for making changes
+
+```git checkout -b [branch name]```
+
+   6. Open code in editor of choice.
+   7. Save and review changes.
 
 ```
 git status
@@ -26,26 +31,18 @@ git diff
 ```
 git status
 git add [file name] or git add . to include all changed files
-git commit [file name]
-git commit -m “[Name of module] - [name of file] - description of changes and maybe the Drupal.org node #.”
+git commit -m “[Project name] - [name of feature] - description of changes.”
 ```
 
    10. Create patch - A patch is the difference between two git "references".
    11. Be sure to be in the project root
    12. Git diff between the two branches to create a patch
-       Note: Patch naming convention:
-    FIXME
+
 
 ```
-git diff fixme
+git diff [orginal branch] [new branch] > [name you patch].patch
 ```
 
    13. Paste command in terminal
    14. Open patch in editor and review 
-   15. Return to the issue and add the patch to a new comment
-   16. Open issue metadata fieldset and change the following:
-       *FIXME
 
-
-## Patch naming conventions explained
-FIXME
