@@ -1,16 +1,17 @@
 # Creating a Patch
 
-   1. Navigate to project page and select the version control tab
-   2. Select the version and show
-   3. Copy git clone link
+   1. Navigate to project and select the `code` dropdwon
+   2. Select the `SSH` tab and copy the text in the box
       * example:
 
  ```
-FIXME
+git@github.com:AmyJuneH/lando.git
 ```
 
-   4. Open terminal (be sure to be in the project root)
-   FIXME - create new branch
+   3. Open terminal (be sure to be in the project root)
+   4. Clone the repo onto your maching
+
+
    5. Open preferred editor and edit the appropriate file and save
    6. Review changes
 
