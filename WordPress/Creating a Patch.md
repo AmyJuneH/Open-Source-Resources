@@ -1,6 +1,6 @@
 # Creating a Patch
 
-   1. Navigate to project and select the `code` dropdwon.
+   1. Navigate to project and select the `code` dropdown.
    2. Select the `SSH` tab and copy the text in the box.
       * example:
 
